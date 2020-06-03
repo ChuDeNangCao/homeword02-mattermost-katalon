@@ -20,28 +20,30 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:8065/reiciendis-0/channels/town-square')
 
-WebUI.setText(findTestObject('Object Repository/1612427/16_AssignPermission/Page_Mattermost/input_All team communication in one place s_703ef5'), 
+WebUI.setText(findTestObject('Object Repository/1612427/17_SendIcon/Page_Mattermost/input_All team communication in one place s_703ef5'), 
     'hcmus-cdnc')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/1612427/16_AssignPermission/Page_Mattermost/input_All team communication in one place s_2f2733'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/1612427/17_SendIcon/Page_Mattermost/input_All team communication in one place s_2f2733'), 
     'aeHFOx8jV/A=')
 
-WebUI.click(findTestObject('Object Repository/1612427/16_AssignPermission/Page_Mattermost/span_Sign in'))
+WebUI.click(findTestObject('Object Repository/1612427/17_SendIcon/Page_Mattermost/span_Sign in'))
 
-WebUI.click(findTestObject('Object Repository/1612427/16_AssignPermission/Page_Town Square - minus Mattermost/button_hcmus-cdnc_style--none sidebar-heade_0f8da4'))
-
-WebUI.click(findTestObject('Object Repository/1612427/16_AssignPermission/Page_Town Square - minus Mattermost/span_Manage Members'))
-
-WebUI.click(findTestObject('Object Repository/1612427/16_AssignPermission/Page_Town Square - minus Mattermost/span_Member'))
-switch("admin"){
-	case "out":
-		WebUI.click(findTestObject('Object Repository/1612427/16_AssignPermission/Page_Town Square - minus Mattermost/span_Remove from Team'))
+WebUI.click(findTestObject('Object Repository/1612427/17_SendIcon/Page_Town Square - minus Mattermost/svg'))
+switch(":smile:") {
+	case ":smile:":
+		WebUI.click(findTestObject('Object Repository/1612427/17_SendIcon/Page_Town Square - minus Mattermost/img_People_emoji-1f600'))
 		break;
-	case "admin": 
-		WebUI.click(findTestObject('Object Repository/1612427/16_AssignPermission/Page_Town Square - minus Mattermost/span_Make Team Admin'))
+	case ":laughing:":
+		WebUI.click(findTestObject('Object Repository/1612427/17_SendIcon/Page_Town Square - minus Mattermost/img_People_emoji-1f600'))
+		break;
+	case ":grinning:":
+		WebUI.click(findTestObject('Object Repository/1612427/17_SendIcon/Page_Town Square - minus Mattermost/img_People_emoji-1f600'))
 		break;
 }
 
+
+
+WebUI.click(findTestObject('Object Repository/1612427/17_SendIcon/Page_Town Square - minus Mattermost/div_Beginning of Town SquareWelcome to Town_3f9c18'))
 
 WebUI.closeBrowser()
 

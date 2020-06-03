@@ -20,28 +20,23 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:8065/reiciendis-0/channels/town-square')
 
-WebUI.setText(findTestObject('Object Repository/1612427/16_AssignPermission/Page_Mattermost/input_All team communication in one place s_703ef5'), 
+WebUI.setText(findTestObject('Object Repository/1612427/18_SwitchChannel/Page_Mattermost/input_All team communication in one place s_703ef5'), 
     'hcmus-cdnc')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/1612427/16_AssignPermission/Page_Mattermost/input_All team communication in one place s_2f2733'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/1612427/18_SwitchChannel/Page_Mattermost/input_All team communication in one place s_2f2733'), 
     'aeHFOx8jV/A=')
 
-WebUI.click(findTestObject('Object Repository/1612427/16_AssignPermission/Page_Mattermost/span_Sign in'))
-
-WebUI.click(findTestObject('Object Repository/1612427/16_AssignPermission/Page_Town Square - minus Mattermost/button_hcmus-cdnc_style--none sidebar-heade_0f8da4'))
-
-WebUI.click(findTestObject('Object Repository/1612427/16_AssignPermission/Page_Town Square - minus Mattermost/span_Manage Members'))
-
-WebUI.click(findTestObject('Object Repository/1612427/16_AssignPermission/Page_Town Square - minus Mattermost/span_Member'))
-switch("admin"){
-	case "out":
-		WebUI.click(findTestObject('Object Repository/1612427/16_AssignPermission/Page_Town Square - minus Mattermost/span_Remove from Team'))
+WebUI.click(findTestObject('Object Repository/1612427/18_SwitchChannel/Page_Mattermost/span_Sign in'))
+String[] channels = ["Town Square", "Off-Topic"];
+for(String ch : channels) {
+	switch(ch) {
+	case "Off-Topic":
+		WebUI.click(findTestObject('Object Repository/1612427/18_SwitchChannel/Page_Off-Topic - minus Mattermost/span_Town Square'))
 		break;
-	case "admin": 
-		WebUI.click(findTestObject('Object Repository/1612427/16_AssignPermission/Page_Town Square - minus Mattermost/span_Make Team Admin'))
+	case "Town Square":
+		WebUI.click(findTestObject('Object Repository/1612427/18_SwitchChannel/Page_Town Square - minus Mattermost/span_Off-Topic'))
 		break;
+	}
 }
-
-
 WebUI.closeBrowser()
 
