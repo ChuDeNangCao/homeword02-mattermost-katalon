@@ -18,7 +18,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://localhost:8065/reiciendis-0/channels/town-square')
+WebUI.navigateToUrl('http://localhost:8065/login')
 
 WebUI.setText(findTestObject('Object Repository/1612427/14_Hide_PinPosts/Page_Mattermost/input_All team communication in one place s_703ef5'), 
     'hcmus-cdnc')
@@ -30,9 +30,8 @@ WebUI.click(findTestObject('Object Repository/1612427/14_Hide_PinPosts/Page_Matt
 
 WebUI.click(findTestObject('Object Repository/1612427/14_Hide_PinPosts/Page_Town Square - minus Mattermost/svg'))
 
-if(findTestObject('Object Repository/1612427/14_Hide_PinPosts/Page_Town Square - minus Mattermost/i_Pinned Posts in Town Square_fa fa-sign-out')){
-	WebUI.click(findTestObject('Object Repository/1612427/14_Hide_PinPosts/Page_Town Square - minus Mattermost/i_Pinned Posts in Town Square_fa fa-sign-out'))
-	
+if (findTestObject('Object Repository/1612427/14_Hide_PinPosts/Page_Town Square - minus Mattermost/i_Pinned Posts in Town Square_fa fa-sign-out')) {
+    WebUI.click(findTestObject('Object Repository/1612427/14_Hide_PinPosts/Page_Town Square - minus Mattermost/i_Pinned Posts in Town Square_fa fa-sign-out'))
 }
 
 WebUI.closeBrowser()

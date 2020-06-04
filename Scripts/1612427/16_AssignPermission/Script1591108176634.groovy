@@ -18,7 +18,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://localhost:8065/reiciendis-0/channels/town-square')
+WebUI.navigateToUrl('http://localhost:8065/login')
 
 WebUI.setText(findTestObject('Object Repository/1612427/16_AssignPermission/Page_Mattermost/input_All team communication in one place s_703ef5'), 
     'hcmus-cdnc')
@@ -33,15 +33,17 @@ WebUI.click(findTestObject('Object Repository/1612427/16_AssignPermission/Page_T
 WebUI.click(findTestObject('Object Repository/1612427/16_AssignPermission/Page_Town Square - minus Mattermost/span_Manage Members'))
 
 WebUI.click(findTestObject('Object Repository/1612427/16_AssignPermission/Page_Town Square - minus Mattermost/span_Member'))
-switch("admin"){
-	case "out":
-		WebUI.click(findTestObject('Object Repository/1612427/16_AssignPermission/Page_Town Square - minus Mattermost/span_Remove from Team'))
-		break;
-	case "admin": 
-		WebUI.click(findTestObject('Object Repository/1612427/16_AssignPermission/Page_Town Square - minus Mattermost/span_Make Team Admin'))
-		break;
-}
 
+switch ('admin') {
+    case 'out':
+        WebUI.click(findTestObject('Object Repository/1612427/16_AssignPermission/Page_Town Square - minus Mattermost/span_Remove from Team'))
+
+        break
+    case 'admin':
+        WebUI.click(findTestObject('Object Repository/1612427/16_AssignPermission/Page_Town Square - minus Mattermost/span_Make Team Admin'))
+
+        break
+}
 
 WebUI.closeBrowser()
 

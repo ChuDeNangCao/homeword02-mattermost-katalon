@@ -35,13 +35,12 @@ WebUI.setText(findTestObject('Object Repository/1612427/12_Create_Channel/Page_T
 
 WebUI.click(findTestObject('Object Repository/1612427/12_Create_Channel/Page_Town Square - minus Mattermost/span_Create Channel'))
 
-WebUI.click(findTestObject('Object Repository/1612427/12_Create_Channel/Page_Town Square - minus Mattermost/span_Create Channel'))
+if (findTestObject('Object Repository/1612427/12_Create_Channel/Page_Town Square - minus Mattermost/p_A channel with that name already exists o_b26172')) {
+    WebUI.click(findTestObject('Object Repository/1612427/12_Create_Channel/Page_Town Square - minus Mattermost/span_Edit'))
 
-if(findTestObject('Object Repository/1612427/12_Create_Channel/Page_Town Square - minus Mattermost/p_A channel with that name already exists o_b26172')) {
-	
-	WebUI.click(findTestObject('Object Repository/1612427/12_Create_Channel/Page_Town Square - minus Mattermost/span_Edit'))
-	WebUI.setText(findTestObject('Object Repository/1612427/12_Create_Channel/Page_Town Square - minus Mattermost/input_httplocis-0channels_form-control'), 
-			'general1')
+    WebUI.setText(findTestObject('Object Repository/1612427/12_Create_Channel/Page_Town Square - minus Mattermost/input_httplocis-0channels_form-control'), 
+        'general1')
 }
+
 WebUI.closeBrowser()
 

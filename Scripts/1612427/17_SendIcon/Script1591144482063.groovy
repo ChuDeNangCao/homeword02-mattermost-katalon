@@ -18,7 +18,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://localhost:8065/reiciendis-0/channels/town-square')
+WebUI.navigateToUrl('http://localhost:8065/login')
 
 WebUI.setText(findTestObject('Object Repository/1612427/17_SendIcon/Page_Mattermost/input_All team communication in one place s_703ef5'), 
     'hcmus-cdnc')
@@ -29,19 +29,21 @@ WebUI.setEncryptedText(findTestObject('Object Repository/1612427/17_SendIcon/Pag
 WebUI.click(findTestObject('Object Repository/1612427/17_SendIcon/Page_Mattermost/span_Sign in'))
 
 WebUI.click(findTestObject('Object Repository/1612427/17_SendIcon/Page_Town Square - minus Mattermost/svg'))
-switch(":smile:") {
-	case ":smile:":
-		WebUI.click(findTestObject('Object Repository/1612427/17_SendIcon/Page_Town Square - minus Mattermost/img_People_emoji-1f600'))
-		break;
-	case ":laughing:":
-		WebUI.click(findTestObject('Object Repository/1612427/17_SendIcon/Page_Town Square - minus Mattermost/img_People_emoji-1f600'))
-		break;
-	case ":grinning:":
-		WebUI.click(findTestObject('Object Repository/1612427/17_SendIcon/Page_Town Square - minus Mattermost/img_People_emoji-1f600'))
-		break;
+
+switch (':smile:') {
+    case ':smile:':
+        WebUI.click(findTestObject('Object Repository/1612427/17_SendIcon/Page_Town Square - minus Mattermost/img_People_emoji-1f600'))
+
+        break
+    case ':laughing:':
+        WebUI.click(findTestObject('Object Repository/1612427/17_SendIcon/Page_Town Square - minus Mattermost/img_People_emoji-1f600'))
+
+        break
+    case ':grinning:':
+        WebUI.click(findTestObject('Object Repository/1612427/17_SendIcon/Page_Town Square - minus Mattermost/img_People_emoji-1f600'))
+
+        break
 }
-
-
 
 WebUI.click(findTestObject('Object Repository/1612427/17_SendIcon/Page_Town Square - minus Mattermost/div_Beginning of Town SquareWelcome to Town_3f9c18'))
 

@@ -18,7 +18,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://localhost:8065/reiciendis-0/channels/town-square')
+WebUI.navigateToUrl('http://localhost:8065/login')
 
 WebUI.setText(findTestObject('Object Repository/1612427/19_InvitePeople/Page_Mattermost/input_All team communication in one place s_703ef5'), 
     'hcmus-cdnc')
@@ -33,22 +33,27 @@ WebUI.click(findTestObject('Object Repository/1612427/19_InvitePeople/Page_Town 
 WebUI.click(findTestObject('Object Repository/1612427/19_InvitePeople/Page_Town Square - minus Mattermost/span_Invite People'))
 
 WebUI.click(findTestObject('Object Repository/1612427/19_InvitePeople/Page_Town Square - minus Mattermost/div_Add members'))
-String[] members = ["Nghiem", "Loc", "Thien", "Nhat"]
-for(String name : members) {
-	switch(name) {
-		case "Nghiem":
-			WebUI.setText(findTestObject('Object Repository/1612427/19_InvitePeople/Page_Town Square - minus Mattermost/input_Add members_react-select-2-input'), 
-					name)
-			break;
-		case "Loc":
-			WebUI.setText(findTestObject('Object Repository/1612427/19_InvitePeople/Page_Town Square - minus Mattermost/input_Add members_react-select-2-input'),
-					"Loc")
-			break;
-			case "Thien":
-			WebUI.setText(findTestObject('Object Repository/1612427/19_InvitePeople/Page_Town Square - minus Mattermost/input_Add members_react-select-2-input'),
-					"Thien")
-			break;
-	}
+
+String[] members = ['Nghiem', 'Loc', 'Thien', 'Nhat']
+
+for (String name : members) {
+    switch (name) {
+        case 'Nghiem':
+            WebUI.setText(findTestObject('Object Repository/1612427/19_InvitePeople/Page_Town Square - minus Mattermost/input_Add members_react-select-2-input'), 
+                name)
+
+            break
+        case 'Loc':
+            WebUI.setText(findTestObject('Object Repository/1612427/19_InvitePeople/Page_Town Square - minus Mattermost/input_Add members_react-select-2-input'), 
+                'Loc')
+
+            break
+        case 'Thien':
+            WebUI.setText(findTestObject('Object Repository/1612427/19_InvitePeople/Page_Town Square - minus Mattermost/input_Add members_react-select-2-input'), 
+                'Thien')
+
+            break
+    }
 }
 
 WebUI.closeBrowser()

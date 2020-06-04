@@ -15,7 +15,7 @@
    <data>dungocson%40bank.com</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
-      <name>newEmail</name>
+      <name>email</name>
       <size>5</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>

@@ -4,12 +4,12 @@
    <name>09_ChangeUserEmail</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>b65b26ef-d116-4bf9-80ed-18152ed2c144</testCaseGuid>
+   <testCaseGuid>1ffe9604-5595-462f-a5d3-7f3a8b80d4f2</testCaseGuid>
    <variable>
       <defaultValue>'xuanghjem@gmail.com'</defaultValue>
       <description></description>
-      <id>e8f022a9-065c-4f7e-b6d4-cc5f9ee1cbd5</id>
+      <id>85da14f5-b37e-4a14-94a9-80c2b395a943</id>
       <masked>false</masked>
-      <name>newEmail</name>
+      <name>email</name>
    </variable>
 </TestCaseEntity>
