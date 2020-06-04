@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>editFullName</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>8481a644-8865-484e-87e5-5c3c60639a9d</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>Ph%E1%BA%A1m Thanh</data>
+   <data>Nguy%E1%BB%85n Ng%E1%BB%8Dc</data>
+   <data>Tr%E1%BA%A7n Th%E1%BA%A3o</data>
+   <data>Hu%E1%BB%B3nh %C3%81nh</data>
+   <data>D%C6%B0%C6%A1ng Th%E1%BB%8B</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>lastName</name>
+      <size>5</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>firstName</name>
+      <size>5</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>
