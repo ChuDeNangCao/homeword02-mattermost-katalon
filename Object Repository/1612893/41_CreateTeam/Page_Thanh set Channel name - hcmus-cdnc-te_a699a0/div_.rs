@@ -3,11 +3,11 @@
    <description></description>
    <name>div_</name>
    <tag></tag>
-   <elementGuidId>17829816-0a75-41e0-80f6-6f05dd7060f0</elementGuidId>
+   <elementGuidId>132ea128-09f5-4e93-8fce-0bdd36acb27a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='create_teamTeamButton']/div/div/div/div</value>
+         <value>//a[@id='select_teamTeamButton']/div/div/div/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -52,28 +52,28 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;create_teamTeamButton&quot;)/div[@class=&quot;team-btn team-btn__add&quot;]/div[@class=&quot;TeamIcon  TeamIcon__md&quot;]/div[@class=&quot;TeamIcon__content&quot;]/div[@class=&quot;TeamIcon__initials TeamIcon__initials__md&quot;]</value>
+      <value>id(&quot;select_teamTeamButton&quot;)/div[@class=&quot;team-btn team-btn__add&quot;]/div[@class=&quot;TeamIcon  TeamIcon__md&quot;]/div[@class=&quot;TeamIcon__content&quot;]/div[@class=&quot;TeamIcon__initials TeamIcon__initials__md&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//a[@id='create_teamTeamButton']/div/div/div/div</value>
+      <value>//a[@id='select_teamTeamButton']/div/div/div/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='te'])[2]/following::div[5]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='th'])[2]/following::div[5]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='te'])[1]/following::div[10]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='th'])[1]/following::div[10]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

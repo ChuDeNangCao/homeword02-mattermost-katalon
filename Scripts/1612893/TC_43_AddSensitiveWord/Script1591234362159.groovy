@@ -18,7 +18,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://localhost:8065/hcmus-cdnc-team/channels/town-square')
+WebUI.navigateToUrl('http://localhost:8065/login')
 
 WebUI.setText(findTestObject('1612893/43_AddSensitiveWord/Page_Mattermost/input_All team communication in one place s_703ef5'), 
     'hcmus-cdnc@gmail.com')

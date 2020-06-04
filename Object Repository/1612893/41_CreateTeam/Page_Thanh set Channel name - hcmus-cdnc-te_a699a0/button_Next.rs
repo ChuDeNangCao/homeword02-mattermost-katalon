@@ -3,7 +3,7 @@
    <description></description>
    <name>button_Next</name>
    <tag></tag>
-   <elementGuidId>f8c848a9-b2fe-48b0-a6b5-f6bab884c71a</elementGuidId>
+   <elementGuidId>7c85af84-9b66-4297-a8c3-83bf5655d564</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -66,7 +66,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div/div/div/div[2]/div/div/div/form/button</value>
+      <value>//div[@id='root']/div/div/div/div[3]/div/div/div/form/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

@@ -3,7 +3,7 @@
    <description></description>
    <name>input_Team Name_teamNameInput</name>
    <tag></tag>
-   <elementGuidId>f95c4e21-d34e-481b-bd05-f1678f3b65b9</elementGuidId>
+   <elementGuidId>a404a542-03f2-41f4-9836-2708346aaf0f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -73,7 +73,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div/div/div/div[2]/div/div/div/form/div/div/div/input</value>
+      <value>//div[@id='root']/div/div/div/div[3]/div/div/div/form/div/div/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

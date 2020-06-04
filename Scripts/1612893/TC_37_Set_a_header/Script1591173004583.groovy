@@ -18,22 +18,21 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://localhost:8065/hcmus-cdnc-team/channels/town-square')
+WebUI.navigateToUrl('http://localhost:8065/login')
 
-WebUI.setText(findTestObject('1612893/37_Set_a_header/Page_Mattermost/input_All team communication in one place s_703ef5'), 
+WebUI.setText(findTestObject('Object Repository/1612893/37_Set_a_header/Page_Mattermost/input_All team communication in one place s_703ef5'), 
     'hcmus-cdnc')
 
-WebUI.setEncryptedText(findTestObject('1612893/37_Set_a_header/Page_Mattermost/input_All team communication in one place s_2f2733'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/1612893/37_Set_a_header/Page_Mattermost/input_All team communication in one place s_2f2733'), 
     'aeHFOx8jV/A=')
 
-WebUI.click(findTestObject('1612893/37_Set_a_header/Page_Mattermost/span_Sign in'))
+WebUI.sendKeys(findTestObject('Object Repository/1612893/37_Set_a_header/Page_Mattermost/input_All team communication in one place s_2f2733'), 
+    Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('1612893/37_Set_a_header/Page_Town Square - hcmus-cdnc-team Mattermost/button_Set a Header'))
+WebUI.click(findTestObject('Object Repository/1612893/37_Set_a_header/Page_Thanh set Channel name - hcmus-cdnc-te_a699a0/button_Set a Header'))
 
-WebUI.setText(findTestObject('1612893/37_Set_a_header/Page_Town Square - hcmus-cdnc-team Mattermost/textarea_Thanh set header'), 
+WebUI.setText(findTestObject('Object Repository/1612893/37_Set_a_header/Page_Thanh set Channel name - hcmus-cdnc-te_a699a0/textarea_thanh set header'), 
     content)
 
-WebUI.click(findTestObject('1612893/37_Set_a_header/Page_Town Square - hcmus-cdnc-team Mattermost/span_Save'))
-
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Object Repository/1612893/37_Set_a_header/Page_Thanh set Channel name - hcmus-cdnc-te_a699a0/button_Save'))
 
