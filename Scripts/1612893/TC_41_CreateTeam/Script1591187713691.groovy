@@ -18,7 +18,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://localhost:8065/hcmus-cdnc-team/channels/town-square')
+WebUI.navigateToUrl('http://localhost:8065/login')
 
 WebUI.setText(findTestObject('Object Repository/1612893/41_CreateTeam/Page_Mattermost/input_All team communication in one place s_703ef5'), 
     'hcmus-cdnc')
@@ -26,16 +26,18 @@ WebUI.setText(findTestObject('Object Repository/1612893/41_CreateTeam/Page_Matte
 WebUI.setEncryptedText(findTestObject('Object Repository/1612893/41_CreateTeam/Page_Mattermost/input_All team communication in one place s_2f2733'), 
     'aeHFOx8jV/A=')
 
-WebUI.click(findTestObject('Object Repository/1612893/41_CreateTeam/Page_Mattermost/span_Sign in'))
+WebUI.click(findTestObject('Object Repository/1612893/41_CreateTeam/Page_Mattermost/button_Sign in'))
 
 WebUI.click(findTestObject('Object Repository/1612893/41_CreateTeam/Page_Thanh set Channel name - hcmus-cdnc-te_a699a0/div_'))
+
+WebUI.click(findTestObject('Object Repository/1612893/41_CreateTeam/Page_Thanh set Channel name - hcmus-cdnc-te_a699a0/span_Create a team'))
 
 WebUI.setText(findTestObject('Object Repository/1612893/41_CreateTeam/Page_Thanh set Channel name - hcmus-cdnc-te_a699a0/input_Team Name_teamNameInput'), 
     teamName)
 
 WebUI.click(findTestObject('Object Repository/1612893/41_CreateTeam/Page_Thanh set Channel name - hcmus-cdnc-te_a699a0/button_Next'))
 
-WebUI.click(findTestObject('Object Repository/1612893/41_CreateTeam/Page_Thanh set Channel name - hcmus-cdnc-te_a699a0/span_Finish'))
+WebUI.click(findTestObject('Object Repository/1612893/41_CreateTeam/Page_Thanh set Channel name - hcmus-cdnc-te_a699a0/button_Finish'))
 
 WebUI.closeBrowser()
 

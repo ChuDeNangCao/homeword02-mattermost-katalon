@@ -14,25 +14,9 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('1612893/TC_Login'), [('username') : 'hcmus-cdnc@gmail.com', ('password') : 'aeHFOx8jV/A='], 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('http://localhost:8065/login')
-
-WebUI.setText(findTestObject('Object Repository/1612893/37_Set_a_header/Page_Mattermost/input_All team communication in one place s_703ef5'), 
-    'hcmus-cdnc')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/1612893/37_Set_a_header/Page_Mattermost/input_All team communication in one place s_2f2733'), 
-    'aeHFOx8jV/A=')
-
-WebUI.sendKeys(findTestObject('Object Repository/1612893/37_Set_a_header/Page_Mattermost/input_All team communication in one place s_2f2733'), 
-    Keys.chord(Keys.ENTER))
-
-WebUI.click(findTestObject('Object Repository/1612893/37_Set_a_header/Page_Thanh set Channel name - hcmus-cdnc-te_a699a0/button_Set a Header'))
-
-WebUI.setText(findTestObject('Object Repository/1612893/37_Set_a_header/Page_Thanh set Channel name - hcmus-cdnc-te_a699a0/textarea_thanh set header'), 
-    content)
-
-WebUI.click(findTestObject('Object Repository/1612893/37_Set_a_header/Page_Thanh set Channel name - hcmus-cdnc-te_a699a0/button_Save'))
+WebUI.callTestCase(findTestCase('1612893/TC_ViewInfo'), [:], FailureHandling.STOP_ON_FAILURE)
 
