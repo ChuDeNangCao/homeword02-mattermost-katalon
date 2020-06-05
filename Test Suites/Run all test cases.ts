@@ -13,7 +13,7 @@
    <testCaseLink>
       <guid>02c32f2a-5537-4fb3-8111-c8681f876e8f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/1612427/01_Login</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -40,7 +40,7 @@
    <testCaseLink>
       <guid>32465556-e128-4a95-8d85-14fdf76854e1</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/1612427/02_ChangePassword</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -73,7 +73,7 @@
    <testCaseLink>
       <guid>3308a5b5-a023-48e3-bee4-c0dcc1cd441a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/1612427/03_ChangeName</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -100,7 +100,7 @@
    <testCaseLink>
       <guid>ae76dd3e-7abc-4698-9879-9c60b405f0ad</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/1612427/04_ChangeNickname</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -121,7 +121,7 @@
    <testCaseLink>
       <guid>785e2ed6-d156-4100-aa4a-d08bef5df41b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/1612427/05_ChangePosition</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -142,7 +142,7 @@
    <testCaseLink>
       <guid>f9858ecf-6bbc-473d-b467-413c320c8270</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/1612427/06_ChangeEmail</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -175,7 +175,7 @@
    <testCaseLink>
       <guid>bcfdebd1-eb6f-4377-8235-1608af43b7bb</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/1612427/07_AddTriggerMention</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -196,7 +196,7 @@
    <testCaseLink>
       <guid>f80700ca-5c9a-488c-aed0-c2fcdbd01932</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/1612427/08_ResetUserPassword</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -238,7 +238,7 @@
    <testCaseLink>
       <guid>bc627b9c-22e1-402a-9667-7857f1d6bed4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/1612427/10_SetMinimum_Password</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -259,25 +259,25 @@
    <testCaseLink>
       <guid>165226b7-dd3f-4572-9dad-aabdca2e8fdb</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/1612427/11_Notification</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>637a8451-7f3b-45da-a965-fd4c3f899414</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/1612427/12_Create_Channel</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>d98028f7-ce10-4416-9390-91e28e942346</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/1612427/13_UnmuteChannel</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>f8fd0902-bdd2-42da-ae8d-51bdb0d0ad1b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/1612427/14_Hide_PinPosts</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -314,12 +314,18 @@
       <guid>3529c2e4-3309-4f8e-98b1-f738bbf61876</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/1612427/20_Search</testCaseId>
+      <testCaseId>Test Cases/1612427/20_Search_Message</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d584703a-2e43-424e-bae1-833137fcdb18</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>575f52b4-add8-42d8-acfc-807a5f780312</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/1612893/TC_36_Edit_UserName</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -361,7 +367,7 @@
    <testCaseLink>
       <guid>0be66494-4dc0-485e-b487-4467578dd8fa</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/1612893/TC_38_Rename_Channel</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -382,7 +388,7 @@
    <testCaseLink>
       <guid>e99e4026-29e5-4da4-8bf0-1fd6ee5cb764</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/1612893/TC_39_Edit_channel_purpose</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -403,7 +409,7 @@
    <testCaseLink>
       <guid>270c363d-61f2-47d7-bc79-3e1cfac185db</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/1612893/TC_40_Edit_channel_header</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -424,7 +430,7 @@
    <testCaseLink>
       <guid>8f54fc5a-51b0-47d6-a351-d5d5497288c6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/1612893/TC_41_CreateTeam</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -445,7 +451,7 @@
    <testCaseLink>
       <guid>31e760f8-897f-4cc4-b5bc-61fd7b9cb272</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/1612893/TC_42_EditTeamName</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -466,7 +472,7 @@
    <testCaseLink>
       <guid>0b5227b3-ff04-4beb-900b-0be73c8da411</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/1612893/TC_43_AddSensitiveWord</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -487,7 +493,7 @@
    <testCaseLink>
       <guid>93408402-5ce2-4536-9c8a-0c5758e8265b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/1612893/TC_44_AddEmailWhiteList</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -508,7 +514,7 @@
    <testCaseLink>
       <guid>750e1fd5-8c47-4a71-9f21-a22c8fefb451</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/1612893/TC_45_Edit_TeamDescription</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -529,31 +535,31 @@
    <testCaseLink>
       <guid>719d20cf-cbd4-42ba-884d-79de147236d0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/1612893/TC_46_ViewMember</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>870d01c8-a1c3-45cc-9ad7-94da8cb460c5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/1612893/TC_47_FlaggedPost</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>5986b76e-67c7-4116-8f83-0459fb042a6c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/1612893/TC_48_ViewInfo</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>cfcc9429-0e96-41d2-81aa-ac8c006f5137</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/1612893/TC_49_PinPost</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>1522d898-ac76-4b6b-9f3a-a19e7771b041</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/1612893/TC_50_AddToFavorite</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
