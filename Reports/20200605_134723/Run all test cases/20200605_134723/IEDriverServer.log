@@ -1,6 +1,0 @@
-I 2020-06-05 13:48:05:198 server.cc(86) Starting WebDriver server on port: '46012' on host: ''
-T 2020-06-05 13:48:05:199 server.cc(634) Entering Server::PopulateCommandRepository
-T 2020-06-05 13:48:05:199 IEServer.cpp(32) Entering IEServer::IEServer
-I 2020-06-05 13:48:05:199 IEServer.cpp(33) Driver version: 3.6.0.0 (32-bit)
-T 2020-06-05 13:48:05:200 server.cc(121) Entering Server::Start
-D 2020-06-05 13:48:05:200 server.cc(148) Civetweb ACL is -0.0.0.0/0,+127.0.0.1
