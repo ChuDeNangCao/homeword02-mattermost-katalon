@@ -314,7 +314,103 @@
       <guid>3529c2e4-3309-4f8e-98b1-f738bbf61876</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/1612427/20_Search</testCaseId>
+      <testCaseId>Test Cases/1612427/20_Search_Message</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d584703a-2e43-424e-bae1-833137fcdb18</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>37b51cfc-d137-4867-b29b-09b8dfe9b994</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1612567/21_CommentChannel</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4fb703a9-dad0-4baf-8380-e110aa997d94</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1612567/22_DirectMessage</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5178000c-716c-47da-a9f0-6f550fd45d91</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1612567/23_Set_Domain_Email_SignUp</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d06da59c-a204-446a-9792-2bd7fc0d8faa</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1612567/24_Setting_Searching</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e0864008-5f65-4572-984c-af8e66edbb88</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1612567/25_CORS_Setting</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>48dc1f35-cc46-4667-984a-5db893d45515</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1612567/26_Call_API_Login</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e70157a5-43ba-4ac7-ab54-7d91e5da23c1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1612567/27_Call_API_Channels_Info</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>85ae137e-c8bd-446c-8d4a-c848493a09d8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1612567/28_Call_API_ChangeName</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>41aad3b9-2ff9-4dce-96a5-ca3920c05aae</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1612567/29_Call_API_ResetPassword</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fc829de6-57f5-4125-8a67-e2ad1ee4229f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1612567/30_Call_API_Set_Permission</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d179d497-be97-40ee-a6a1-02cf31679edd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1612567/31_Call_API_Search_User</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b4bf78a1-0761-4465-93dd-3f03a4cd7c9d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1612567/32_Call_API_Search_Tokens</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>40aa9ace-ad25-4ac7-9ad3-9d53609bbfc5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1612567/33_Call_API_Get_Jobs</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c58ad57b-edf1-4b3c-8188-da1915662616</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1612567/34_Call_API_Create_Job_By_Type</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>180976a4-998f-47b1-9e19-e109a588c023</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1612567/35_Call_API_Cancel_Job</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>575f52b4-add8-42d8-acfc-807a5f780312</guid>
@@ -340,7 +436,7 @@
    <testCaseLink>
       <guid>db56f602-b022-4051-9ed2-7e21d7bc4da4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/1612893/TC_37_Set_a_header</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
