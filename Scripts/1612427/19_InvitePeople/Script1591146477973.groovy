@@ -18,7 +18,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://localhost:8065/login')
+WebUI.navigateToUrl('http://localhost:8065/reiciendis-0/channels/town-square')
 
 WebUI.setText(findTestObject('Object Repository/1612427/19_InvitePeople/Page_Mattermost/input_All team communication in one place s_703ef5'), 
     'hcmus-cdnc')

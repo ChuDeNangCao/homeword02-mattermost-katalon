@@ -18,7 +18,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://localhost:8065/login')
+WebUI.navigateToUrl('http://localhost:8065/reiciendis-0/channels/town-square')
 
 WebUI.setText(findTestObject('Object Repository/1612427/18_SwitchChannel/Page_Mattermost/input_All team communication in one place s_703ef5'), 
     'hcmus-cdnc')
@@ -27,11 +27,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/1612427/18_SwitchChanne
     'aeHFOx8jV/A=')
 
 WebUI.click(findTestObject('Object Repository/1612427/18_SwitchChannel/Page_Mattermost/span_Sign in'))
-
-String[] channels = ['Town Square', 'Off-Topic']
-
-for (String ch : channels) {
-    switch (ch) {
+    switch ('Town Square') {
         case 'Off-Topic':
             WebUI.click(findTestObject('Object Repository/1612427/18_SwitchChannel/Page_Off-Topic - minus Mattermost/span_Town Square'))
 
@@ -40,7 +36,6 @@ for (String ch : channels) {
             WebUI.click(findTestObject('Object Repository/1612427/18_SwitchChannel/Page_Town Square - minus Mattermost/span_Off-Topic'))
 
             break
-    }
 }
 
 WebUI.closeBrowser()

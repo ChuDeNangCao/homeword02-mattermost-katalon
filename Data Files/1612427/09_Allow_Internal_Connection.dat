@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>09_ChangeEmailUser</name>
+   <name>09_Allow_Internal_Connection</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>84976102-805c-4c3f-a05d-b9ca50c582fe</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>xuanghjem%40gmail.com</data>
-   <data>asd%40.com</data>
-   <data>asdas%40</data>
-   <data>xxx%40email.com</data>
-   <data>dungocson%40bank.com</data>
+   <data>127.0.0.1</data>
+   <data>192.168.0.0.1</data>
+   <data>000</data>
+   <data>111</data>
+   <data>222</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
-      <name>email</name>
+      <name>IP</name>
       <size>5</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>

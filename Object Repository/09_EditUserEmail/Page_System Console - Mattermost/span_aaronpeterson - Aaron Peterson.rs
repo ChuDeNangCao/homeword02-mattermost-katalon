@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_janicearmstrong - Janice Armstrong</name>
+   <name>span_aaronpeterson - Aaron Peterson</name>
    <tag></tag>
-   <elementGuidId>f3d5192a-3eed-4a40-9e0a-056cc44649b2</elementGuidId>
+   <elementGuidId>e888a070-36f5-4725-9ed8-edd13c268965</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='adminConsoleWrapper']/div[3]/div/div/div[2]/div/div/div/div/div[2]/div/div/div/div/div/div/a/span</value>
+         <value>//div[@id='adminConsoleWrapper']/div[3]/div/div/div[2]/div/div/div/div/div[2]/div/div[2]/div/div/div/div/a/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -24,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>@janice.armstrong - Janice Armstrong</value>
+      <value>@aaron.peterson - Aaron Peterson</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,27 +38,27 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='adminConsoleWrapper']/div[3]/div/div/div[2]/div/div/div/div/div[2]/div/div/div/div/div/div/a/span</value>
+      <value>//div[@id='adminConsoleWrapper']/div[3]/div/div/div[2]/div/div/div/div/div[2]/div/div[2]/div/div/div/div/a/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='User Status:'])[1]/following::span[5]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='System Admin'])[2]/following::span[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='@janice.armstrong']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='@aaron.peterson']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/a/span</value>
+      <value>//div[2]/div/div/div/div/a/span</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -18,31 +18,37 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.setViewPortSize(1600, 1500)
+
 WebUI.navigateToUrl('http://localhost:8065/reiciendis-0/channels/town-square')
 
-WebUI.setText(findTestObject('Object Repository/1612427/16_AssignPermission/Page_Mattermost/input_All team communication in one place s_703ef5'), 
+WebUI.setText(findTestObject('Object Repository/1612427/20_Search_Message/Page_Mattermost/input_All team communication in one place s_703ef5'), 
     'hcmus-cdnc')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/1612427/16_AssignPermission/Page_Mattermost/input_All team communication in one place s_2f2733'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/1612427/20_Search_Message/Page_Mattermost/input_All team communication in one place s_2f2733'), 
     'aeHFOx8jV/A=')
 
-WebUI.click(findTestObject('Object Repository/1612427/16_AssignPermission/Page_Mattermost/span_Sign in'))
+WebUI.click(findTestObject('Object Repository/1612427/20_Search_Message/Page_Mattermost/span_Sign in'))
 
-WebUI.click(findTestObject('Object Repository/1612427/16_AssignPermission/Page_Town Square - minus Mattermost/button_hcmus-cdnc_style--none sidebar-heade_0f8da4'))
+String[] keys = ['nghiem', 'son']
 
-WebUI.click(findTestObject('Object Repository/1612427/16_AssignPermission/Page_Town Square - minus Mattermost/span_Manage Members'))
+for (String key : keys) {
+	switch ('from') {
+		case 'from':
+			WebUI.setText(findTestObject('Object Repository/1612427/20_Search_Message/Page_Town Square - minus Mattermost/input_(Edit)_searchBox'),
+				'from: '.concat(key))
+			WebUI.sendKeys(findTestObject('Object Repository/1612427/20_Search_Message/Page_Town Square - minus Mattermost/input_(Edit)_searchBox'), 
+					Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Object Repository/1612427/16_AssignPermission/Page_Town Square - minus Mattermost/span_Member'))
+			break
+		case 'on':
+			WebUI.setText(findTestObject('Object Repository/1612427/20_Search_Message/Page_Town Square - minus Mattermost/input_(Edit)_searchBox'), 
+				'from: '.concat(key))
+			WebUI.sendKeys(findTestObject('Object Repository/1612427/20_Search_Message/Page_Town Square - minus Mattermost/input_(Edit)_searchBox'),
+				Keys.chord(Keys.ENTER))
 
-switch ('admin') {
-    case 'out':
-        WebUI.click(findTestObject('Object Repository/1612427/16_AssignPermission/Page_Town Square - minus Mattermost/span_Remove from Team'))
-
-        break
-    case 'admin':
-        WebUI.click(findTestObject('Object Repository/1612427/16_AssignPermission/Page_Town Square - minus Mattermost/span_Make Team Admin'))
-
-        break
+			break
+	}
 }
 
 WebUI.closeBrowser()

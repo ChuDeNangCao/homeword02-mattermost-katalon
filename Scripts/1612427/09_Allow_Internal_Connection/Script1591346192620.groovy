@@ -18,29 +18,22 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://localhost:8065/login')
+WebUI.navigateToUrl('http://localhost:8065/admin_console')
 
-WebUI.setText(findTestObject('Object Repository/1612427/20_SearchMessage/Page_Mattermost/input_All team communication in one place s_703ef5'), 
+WebUI.setText(findTestObject('Object Repository/1612427/09_Allow_Internal_Connection/Page_Mattermost/input_All team communication in one place s_703ef5'), 
     'hcmus-cdnc')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/1612427/20_SearchMessage/Page_Mattermost/input_All team communication in one place s_2f2733'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/1612427/09_Allow_Internal_Connection/Page_Mattermost/input_All team communication in one place s_2f2733'), 
     'aeHFOx8jV/A=')
 
-WebUI.click(findTestObject('Object Repository/1612427/20_SearchMessage/Page_Mattermost/button_Sign in'))
+WebUI.click(findTestObject('Object Repository/1612427/09_Allow_Internal_Connection/Page_Mattermost/span_Sign in'))
 
-String[] keys = ["nghiem", "son"]
-	for(String key : keys) {
-		switch("from") {
-				case "from":
-					WebUI.setText(findTestObject('Object Repository/1612427/20_Search_Message/Page_Town Square - eligendi Mattermost/input_(Edit)_searchBox'), 
-						"from: ".concat(key))
-					break
-				case "on":
-					WebUI.setText(findTestObject('Object Repository/1612427/20_Search_Message/Page_Town Square - eligendi Mattermost/input_(Edit)_searchBox'),
-						"on: ".concat(key))
-					break
-		}
-}
+WebUI.click(findTestObject('Object Repository/1612427/09_Allow_Internal_Connection/Page_System Console - Mattermost/a_Developer'))
+
+WebUI.setText(findTestObject('Object Repository/1612427/09_Allow_Internal_Connection/Page_System Console - Mattermost/input_Allow untrusted internal connections _3bb3c8'), 
+    IP)
+
+WebUI.click(findTestObject('Object Repository/1612427/09_Allow_Internal_Connection/Page_System Console - Mattermost/button_Save'))
 
 WebUI.closeBrowser()
 

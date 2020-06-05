@@ -20,7 +20,7 @@ WebUI.openBrowser('')
 
 WebUI.setViewPortSize(1600, 1500)
 
-WebUI.navigateToUrl('http://localhost:8065/login')
+WebUI.navigateToUrl('http://localhost:8065/reiciendis-0/channels/town-square')
 
 WebUI.setText(findTestObject('Object Repository/1612427/17_SendIcon/Page_Mattermost/input_All team communication in one place s_703ef5'), 
     'hcmus-cdnc')

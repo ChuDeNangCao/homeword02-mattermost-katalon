@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>20_Search_Message</name>
+   <name>09_Allow_Internal_Connection</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>063fd5c0-5472-48d5-b763-daf902ee13d3</testCaseGuid>
+   <testCaseGuid>4ce9b130-a5a2-4dcf-899a-909eb22ed6cb</testCaseGuid>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'127.0.0.1'</defaultValue>
       <description></description>
-      <id>d584703a-2e43-424e-bae1-833137fcdb18</id>
+      <id>315757a1-9ed2-4964-91a2-8f616452a587</id>
       <masked>false</masked>
-      <name>variable</name>
+      <name>IP</name>
    </variable>
 </TestCaseEntity>

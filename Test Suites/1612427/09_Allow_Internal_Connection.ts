@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>09_ChangeUserEmail</name>
+   <name>09_Allow_Internal_Connection</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -11,24 +11,24 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>cef461ee-5e06-4a92-805c-3e0cee5abf97</testSuiteGuid>
    <testCaseLink>
-      <guid>d87090a5-4d4e-48c6-b35c-ed4b83eccbc7</guid>
+      <guid>9e3d2fae-dc2e-4c6a-9249-43de59890bfa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1612427/09_ChangeUserEmail</testCaseId>
+      <testCaseId>Test Cases/1612427/09_Allow_Internal_Connection</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>98e0dfbc-3867-4a8b-802d-132a7f344dc4</id>
+         <id>56bb80c1-6cdc-441f-9095-a4ed71e3aa13</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/1612427/09_ChangeEmailUser</testDataId>
+         <testDataId>Data Files/1612427/09_Allow_Internal_Connection</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>98e0dfbc-3867-4a8b-802d-132a7f344dc4</testDataLinkId>
+         <testDataLinkId>56bb80c1-6cdc-441f-9095-a4ed71e3aa13</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>email</value>
-         <variableId>85da14f5-b37e-4a14-94a9-80c2b395a943</variableId>
+         <value>IP</value>
+         <variableId>315757a1-9ed2-4964-91a2-8f616452a587</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

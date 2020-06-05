@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Email_SystemUserDetail__input form-control</name>
+   <name>input_Allow untrusted internal connections _3bb3c8</name>
    <tag></tag>
-   <elementGuidId>a62159aa-25da-4f59-b9b6-9443ae62ddbd</elementGuidId>
+   <elementGuidId>ada27817-344b-4f97-9a0c-3ba79ca0030c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@value='xxx@email.com']</value>
+         <value>//input[@id='ServiceSettings.AllowedUntrustedInternalConnections']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,50 +22,71 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>ServiceSettings.AllowedUntrustedInternalConnectionsinput</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ServiceSettings.AllowedUntrustedInternalConnections</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>SystemUserDetail__input form-control</value>
+      <value>form-control</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>text</value>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>webhooks.internal.example.com 127.0.0.1 10.0.16.0/28</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>value</name>
+      <name>maxlength</name>
       <type>Main</type>
-      <value>xxx@email.com</value>
+      <value>-1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;adminConsoleWrapper&quot;)/div[@class=&quot;admin-console&quot;]/div[1]/div[@class=&quot;SystemUserDetail wrapper--fixed&quot;]/div[@class=&quot;admin-console__wrapper&quot;]/div[@class=&quot;admin-console__content&quot;]/div[@class=&quot;AdminUserCard&quot;]/div[@class=&quot;AdminUserCard__body&quot;]/div[1]/input[@class=&quot;SystemUserDetail__input form-control&quot;]</value>
+      <value>id(&quot;ServiceSettings.AllowedUntrustedInternalConnections&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@value='xxx@email.com']</value>
+      <value>//input[@id='ServiceSettings.AllowedUntrustedInternalConnections']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='adminConsoleWrapper']/div[4]/div/div/div[2]/div/div/div[2]/div/input</value>
+      <value>//div[@id='adminConsoleWrapper']/div[3]/div/div/div[2]/div/form/div/div/div[3]/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div/div[2]/div/input</value>
+      <value>//div[3]/div/input</value>
    </webElementXpaths>
 </WebElementEntity>
