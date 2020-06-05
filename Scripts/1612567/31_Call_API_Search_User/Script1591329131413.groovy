@@ -15,3 +15,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WS.sendRequest(findTestObject('1612567/API TESTING/31_Call_API_Search_User'))
+
