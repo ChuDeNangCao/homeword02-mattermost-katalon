@@ -18,6 +18,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.setViewPortSize(1600, 1500)
+
 WebUI.navigateToUrl('http://localhost:8065/admin_console')
 
 WebUI.setText(findTestObject('Object Repository/1612427/09_ChangeUserEmail/Page_Mattermost/input_All team communication in one place s_703ef5'), 

@@ -229,10 +229,10 @@
          <testDataId>Data Files/1612427/09_ChangeEmailUser</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>18d6621f-70ea-4de4-ba92-99b387dc26c1</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>newEmail</value>
-         <variableId>e8f022a9-065c-4f7e-b6d4-cc5f9ee1cbd5</variableId>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>85da14f5-b37e-4a14-94a9-80c2b395a943</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
